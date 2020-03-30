@@ -8,6 +8,8 @@ const mongoose = require('mongoose');
 const Character = require('../lib/models/Character');
 
 describe('Character Routes', () => {
+  let character = null;
+
   beforeAll(() => {
     connect();
   });
@@ -17,7 +19,7 @@ describe('Character Routes', () => {
   });
 
   beforeEach(async() => {
-    JSON.parse(JSON.stringify(await Character.create({ 
+    character = JSON.parse(JSON.stringify(await Character.create({ 
       name: 'Bob',
       image: 'hereisimage.png' })));
   });
@@ -51,6 +53,34 @@ describe('Character Routes', () => {
           name: 'Bob',
           image: 'hereisimage.png'
         }]);
+      });
+  });
+
+  it('Can GET a single Character by ID', () => {
+    return request(app)
+      .get(`/api/v1/characters/${character._id}`)
+      .then(res => {
+        expect(res.body).toEqual({
+          _id: expect.any(String),
+          name: 'Bob',
+          image: 'hereisimage.png'
+        });
+      });
+  });
+
+  it('can PUT to UPDATE CHARACTER by ID', () => {
+    return request(app)
+      .patch(`/api/v1/characters/${character._id}`)
+      .send({
+        ...character,
+        image: 'aBetterPicture.jpg'
+      })
+      .then(res => {
+        expect(res.body).toEqual({
+          _id: character._id,
+          name: 'Bob',
+          image: 'aBetterPicture.jpg'
+        });
       });
   });
 
