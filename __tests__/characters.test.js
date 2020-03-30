@@ -17,7 +17,7 @@ describe('Character Routes', () => {
   });
 
   beforeEach(async() => {
-    let character = JSON.parse(JSON.stringify(await Character.create({ 
+    JSON.parse(JSON.stringify(await Character.create({ 
       name: 'Bob',
       image: 'hereisimage.png' })));
   });
@@ -41,4 +41,17 @@ describe('Character Routes', () => {
         });
       });
   });
+
+  it('Can GET all CHARACTERS', () => {
+    return request(app)
+      .get('/api/v1/characters')
+      .then(res => {
+        expect(res.body).toEqual([{
+          _id: expect.any(String),
+          name: 'Bob',
+          image: 'hereisimage.png'
+        }]);
+      });
+  });
+
 });
