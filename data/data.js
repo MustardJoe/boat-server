@@ -15,12 +15,20 @@ export const charactersData = {
     name: 'Agent Dale Cooper',
     img: ''
   },
+  dHawk: {
+    name: 'Deputy Hawk',
+    img: ''
+  },
   dHayward: {
     name: 'Donna Hayward',
     img: ''
   },
   nJennings: {
     name: 'Norma Jennings',
+    img: ''
+  },
+  sJohnson: {
+    name: 'Shelly Johnson',
     img: ''
   },
   lLady: {
@@ -150,4 +158,169 @@ export const quotesData = {
     body: `"I may be wearing a dress, but I still pull my panties on
     one leg at a time if you know what I mean."`
   },
+  18: {
+    character: ['Deputy Hawk'],
+    body: `"You may be fearless in this world, but there are other
+    worlds."`
+  },
+  19: {
+    character: ['Log Lady'],
+    body: `"Is a dog man's best friend? I had a dog. The dog was
+    large. It ate my garden, all the plants, and much earth. The
+    dog ate so much earth it died. Its body went back to the earth.
+    I have a memory of this dog. The memory is all that I have left
+    of my dog. He was black — and white."`
+  },
+  20: {
+    character: ['Agent Dale Cooper'],
+    /* eslint-disable-next-line */
+    body: `"A little habit can provide a strong foundation."`
+  },
+  21: {
+    character: ['Log Lady'],
+    body: `"
+    Is life like a game of chess? Are our present moves important
+    for future success? I think so. We paint our future with every
+    present brush stroke. Painting. Colors. Shapes. Textures.
+    Composition. Repetition of shapes. Contrast. Let nature guide
+    us. Nature is the great teacher."`
+  },
+  22: {
+    character: ['Log Lady'],
+    body: `"How many times have we heard: 'it's simple'. Nothing is
+    simple. We live in a world where nothing is simple. Each day,
+    just when we think we have a handle on things, suddenly some
+    new element is introduced and everything is complicated once
+    again."`
+  },
+  23: {
+    character: ['Agent Dale Cooper'],
+    /* eslint-disable-next-line */
+    body: `"There's nothing quite like urinating in the open air."`
+  },
+  24: {
+    character: ['Log Lady'],
+    body: `"Food is interesting. For instance, why do we need to
+    eat? Why are we never satisfied with just the right amount of
+    food to maintain good health and proper energy? We always seem
+    to want more and more. When eating too much, the proper balance
+    is disturbed and ill health follows. Of course, eating too
+    little food throws the balance off in the opposite direction and
+    there is the ill health coming at us again. Balance is the key.
+    Balance is the key to many things. Do we understand balance?
+    The word 'balance' has seven letters. Seven is difficult to
+    balance, but not impossible if we are able to divide. There are,
+    of course, the pros and cons of division."`
+  },
+  25: {
+    character: ['Log Lady'],
+    body: `"Yes, look in the mirror. What do you see? Is it a dream,
+    or a nightmare? Are we being introduced against our will? Are
+    they mirrors?"`
+  },
+  26: {
+    character: ['Shelly Johnson'],
+    body: `"Leo doesn't talk, he hits. He was so great at first, you
+    know. This flashy guy in his hot car. Then we get married and I
+    find out all he was looking for was a maid he didn't have to
+    pay. I feel so stupid."`
+  },
+  27: {
+    character: ['Sherif Harry S. Truman'],
+    body: `"There's a sort of evil out there. Something very, very
+    strange in these old woods. Call it what you want. A darkness,
+    a presence. It takes many forms but... its been out there for
+    as long as anyone can remember and we've always been here to
+    fight it."`
+  },
+  28: {
+    character: ['Agent Dale Cooper'],
+    body: `"Nothing beats the taste sensation when maple syrup
+    collides with ham."`
+  },
+  29: {
+    character: ['Log Lady'],
+    body: `"There is a sadness in this world, for we are ignorant
+    of many things. Yes, we are ignorant of many beautiful things
+    — things like the truth. So sadness, in our ignorance, is very
+    real. The tears are real. What is this thing called a tear?
+    There are even tiny ducts — tear ducts — to produce these
+    tears should the sadness occur. Then the day when the sadness
+    comes — then we ask: 'Will this sadness which makes me cry —
+    will this sadness that makes me cry my heart out — will it ever
+    end?' The answer, of course, is yes. One day the sadness will
+    end."`
+  },
+  30: {
+    character: ['Log Lady'],
+    body: `"Sometime ideas, like men, jump up and say 'hello'. They
+    introduce themselves, these ideas, with words. Are they words?
+    These ideas speak so strangely. All that we see in this world
+    is based on someone's ideas. Some ideas are destructive, some
+    are constructive. Some ideas can arrive in the form of a dream.
+    I can say it again: some ideas arrive in the form of a dream."`
+  },
+  31: {
+    character: ['Log Lady'],
+    body: `"Behind all things are reasons. Reasons can even explain
+    the absurd. Do we have the time to learn the reasons behind
+    the human being's varied behavior? I think not. Some take time."`
+  },
+  32: {
+    character: [],
+    body: `""`
+  },
+  33: {
+    character: [],
+    body: `""`
+  },
+  34: {
+    character: [],
+    body: `""`
+  },
+  35: {
+    character: [],
+    body: `""`
+  },
+  36: {
+    character: [],
+    body: `""`
+  },
+  37: {
+    character: [],
+    body: `""`
+  },
+  38: {
+    character: [],
+    body: `""`
+  },
+  39: {
+    character: [],
+    body: `""`
+  },
+  40: {
+    character: [],
+    body: `""`
+  },
+  41: {
+    character: [],
+    body: `""`
+  },
+  42: {
+    character: [],
+    body: `""`
+  },
+  43: {
+    character: [],
+    body: `""`
+  },
+  44: {
+    character: [],
+    body: `""`
+  },
+  45: {
+    character: [],
+    body: `""`
+  },
+
 };
