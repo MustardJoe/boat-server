@@ -84,4 +84,12 @@ describe('Character Routes', () => {
       });
   });
 
+  it('can DELETE a CHARACTER by ID', () => {
+    return request(app)
+      .delete(`/api/v1/characters/${character._id}`)
+      .then(res => {
+        expect(res.body).toEqual(character);
+      });
+  });  
+
 });
