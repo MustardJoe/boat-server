@@ -1,4 +1,8 @@
 export const charactersData = {
+  aBlackburn: {
+    name: 'Annie Blackburn',
+    img: ''
+  },
   bBriggs: {
     name: 'Bobby Briggs',
     img: ''
@@ -267,60 +271,74 @@ export const quotesData = {
     the human being's varied behavior? I think not. Some take time."`
   },
   32: {
-    character: [],
-    body: `""`
+    character: ['Sherif Harry S. Truman', 'Agent Dale Cooper'],
+    body: `Sheriff Truman: "You know, I think I'd better start studying medicine."
+    Dale Cooper: "And why is that?"
+    Sheriff Truman: "Because I'm beginning to feel a bit like Dr. Watson."`
   },
   33: {
-    character: [],
-    body: `""`
+    character: ['Agent Dale Cooper'],
+    body: `"Now, I'd like two eggs, over hard. I know, don't tell me;
+    it's hard on the arteries, but old habits die hard — just about as
+    hard as I want those eggs."`
   },
   34: {
-    character: [],
-    body: `""`
+    character: ['Sherif Truman', 'Agent Dale Cooper'],
+    body: `Dale Cooper: "Who's the lady with the log?"
+    Sheriff Truman: "We call her the Log Lady."`
   },
   35: {
-    character: [],
-    body: `""`
+    character: ['Agent Albert Rosenfield', 'Deputy Director Gordon Cole'],
+    body: `Albert Rosenfield: "I said, you've gone soft in your old age."
+    Gordon Cole: "Not where it counts buddy."`
   },
   36: {
-    character: [],
-    body: `""`
+    character: ['Agent Dale Cooper'],
+    /* eslint-disable-next-line */
+    body: `"You know, this is — excuse me — a damn fine cup of coffee!"`
   },
   37: {
-    character: [],
-    body: `""`
+    character: ['Philip Gerard'],
+    body: `"Through the darkness of future's past, the magician longs
+    to see. One chants out between two worlds... 'Fire...walk with me.'"`
   },
   38: {
-    character: [],
-    body: `""`
+    character: ['Log Lady'],
+    body: `"Welcome to Twin Peaks. My name is Margaret Lanterman. I
+    live in Twin Peaks. I am known as the Log Lady. There is a story
+    behind that. There are many stories in Twin Peaks — some of them
+    are sad, some funny. Some of them are stories of madness, of
+    violence. Some are ordinary. Yet they all have about them a sense
+    of mystery — the mystery of life. Sometimes, the mystery of death.
+    The mystery of the woods. The woods surrounding Twin Peaks. To
+    introduce this story, let me just say it encompasses the All — it
+    is beyond the 'Fire,' though few would know that meaning. It is a
+    story of many, but begins with one — and I knew her. The one
+    leading to the many is Laura Palmer. Laura is the one."`
   },
   39: {
-    character: [],
-    body: `""`
+    character: ['Agent Dale Cooper'],
+    body: `"I've got a joke for you. Two penguins were walking across
+    an iceberg. One penguin turned to the other penguin and said, 'You
+    look like you are wearing a tuxedo.'"`
   },
   40: {
-    character: [],
-    body: `""`
+    character: ['Agent Dale Cooper'],
+    body: `"Harry, I’m going to let you in on a little secret. Every
+    day, once a day, give yourself a present. Don’t plan it, don’t
+    wait for it, just let it happen."`
   },
   41: {
-    character: [],
-    body: `""`
+    character: ['Agent Dale Cooper', 'Sherif Truman'],
+    body: `Harry: "You know there are plenty of other vets in Twin
+    Peaks."
+    Dale Cooper: "Yes but only one has a best friend with one arm.
+    Harry, in the heat of the investigative pursuit, the shortest
+    distance between two points is not necessarily a straight line."`
   },
   42: {
-    character: [],
-    body: `""`
+    character: ['Pete Martell'],
+    body: `"Fellas don't drink that coffee! You'd never guess, there
+    was a fish... in the percolator. Sorry."`
   },
-  43: {
-    character: [],
-    body: `""`
-  },
-  44: {
-    character: [],
-    body: `""`
-  },
-  45: {
-    character: [],
-    body: `""`
-  },
-
 };
