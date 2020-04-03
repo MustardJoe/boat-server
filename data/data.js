@@ -1,59 +1,59 @@
 export const charactersData = {
   aBlackburn: {
     name: 'Annie Blackburn',
-    img: ''
+    img: 'https://vignette.wikia.nocookie.net/twinpeaks/images/1/14/Annie_Blackburn.jpg/revision/latest?cb=20190921214308'
   },
   bBriggs: {
     name: 'Bobby Briggs',
-    img: ''
+    img: 'https://vignette.wikia.nocookie.net/twinpeaks/images/3/31/Bobby_005.jpg/revision/latest/scale-to-width-down/340?cb=20100423043905'
   },
   dBryson: {
     name: 'Agent Denise Bryson',
-    img: ''
+    img: 'data:image/jpeg;base64,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'
   },
   gCole: {
     name: 'Deputy Director Gordon Cole',
-    img: ''
+    img: 'https://vignette.wikia.nocookie.net/twinpeaks/images/7/7a/GordonColeNewMainPhoto.png/revision/latest?cb=20171109180605'
   },
   dCooper: {
     name: 'Agent Dale Cooper',
-    img: ''
+    img: 'https://cnet4.cbsistatic.com/img/VHWr511OOJsjcc8EjgQIv8uldRQ=/1092x0/2014/10/03/26bc6e31-8e32-46ed-aa6b-0a6784b9f722/thumbsup.jpg'
   },
   dHawk: {
     name: 'Deputy Hawk',
-    img: ''
+    img: 'https://m.media-amazon.com/images/M/MV5BMTkzNDk1ODc4NV5BMl5BanBnXkFtZTgwMTAyMjg0MDE@._V1_.jpg'
   },
   dHayward: {
     name: 'Donna Hayward',
-    img: ''
+    img: 'https://i.pinimg.com/originals/dd/26/88/dd2688d50d8641f2db6b48b0f70e0fab.jpg'
   },
   nJennings: {
     name: 'Norma Jennings',
-    img: ''
+    img: 'https://www.thewrap.com/wp-content/uploads/2017/05/norma-jennings-twin-peaks-300x200.jpg'
   },
   sJohnson: {
     name: 'Shelly Johnson',
-    img: ''
+    img: 'https://i.pinimg.com/originals/0c/0b/f4/0c0bf45f695914a193ee452887b3f296.png'
   },
   lLady: {
     name: 'Log Lady',
-    img: ''
+    img: 'https://vignette.wikia.nocookie.net/twinpeaks/images/4/4f/Shot0003.png/revision/latest?cb=20140210120651'
   },
   pMartell: {
     name: 'Pete Martell',
-    img: ''
+    img: 'https://vignette.wikia.nocookie.net/twinpeaks/images/c/c7/X_2574f1b8.jpg/revision/latest/scale-to-width-down/340?cb=20111126081930'
   },
   mMilford: {
     name: 'Mayor Milford',
-    img: ''
+    img: 'https://4.bp.blogspot.com/-KUnc0IcWWNw/WNL5DiaWk3I/AAAAAAAAk6s/JU9Lkkd6jisjv_IzEnORPBkUosZrH3x9gCLcB/s1600/Picture%2B43.png'
   },
   aRosenfield: {
     name: 'Agent Albert Rosenfield',
-    img: ''
+    img: 'https://3.bp.blogspot.com/-H1iA9zUc25k/WPYdMiFAqxI/AAAAAAAAmIQ/hQYc3B1fK1kmHEDYLfGtA2Upe5Ib9ScHQCEw/s1600/Picture%2B21.png'
   },
   hTruman: {
     name: 'Sheriff Harry S. Truman',
-    img: ''
+    img: 'https://heavyeditorial.files.wordpress.com/2017/05/sheriff-truman-where.jpg?quality=65&strip=all&w=780'
   }
 };
 
