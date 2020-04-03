@@ -62,5 +62,39 @@ describe('routes for QUOTE model test', () => {
         }]);
       });
   });
+  
+  it('can GET a single QUOTE by id', () => {
+    return request(app)
+      .get(`/api/v1/quotes/${quote._id}`)
+      .then(res => {
+        expect(res.body).toEqual({
+          _id: quote._id,
+          character: [character._id],
+          body: '"This is a real Twin Peaks quote that I, me, Bob, said."'
+        });
+      });
+  });
 
+  it('can PATCH a QUOTE by id', () => {
+    return request(app)
+      .patch(`/api/v1/quotes/${quote._id}`)
+      .send({
+        body: '"HAVE SOME CAKE BECAUSE COOPER ALWAYS EATS BIRTHDAY CAKE"'
+      })
+      .then(res => {
+        expect(res.body).toEqual({
+          _id: quote._id,
+          character: quote.character,
+          body: '"HAVE SOME CAKE BECAUSE COOPER ALWAYS EATS BIRTHDAY CAKE"'
+        });
+      });
+  });
+
+  it('can DELETE a QUOTES by id', () => {
+    return request(app)
+      .delete(`/api/v1/quotes/${quote._id}`)
+      .then(res => {
+        expect(res.body).toEqual(quote);
+      });
+  });
 });
