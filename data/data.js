@@ -31,6 +31,10 @@ export const charactersData = {
     name: 'Donna Hayward',
     img: 'https://i.pinimg.com/originals/dd/26/88/dd2688d50d8641f2db6b48b0f70e0fab.jpg'
   },
+  aHorne: {
+    name: 'Audry Horne',
+    img: 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F1.bp.blogspot.com%2F-xmoZtnB9fxw%2FUUdmvYDH65I%2FAAAAAAAAATA%2FHJz1ERltktw%2Fs1600%2FAudrey%2BHorne.jpg&f=1&nofb=1'
+  },
   nJennings: {
     name: 'Norma Jennings',
     img: 'https://www.thewrap.com/wp-content/uploads/2017/05/norma-jennings-twin-peaks-300x200.jpg'
@@ -365,8 +369,85 @@ export const quotesData = {
     body: `"Tremaine, Brennan, Andy Brennan! We need to talk…
     That is if you are not too busy.”"`
   },
-  // 47: {
-  //   character: [''],
-  //   body: `""`
-  // },
+  47: {
+    character: ['Audry Horne'],
+    body: `"“You know, sometimes I get so flushed, it’s
+    interesting. Do your palms ever itch?”"`
+  },
+  48: {
+    character: ['Audry Horne'],
+    /* eslint-disable-next-line */
+    body: `"I’m Audrey Horne and I get what I want."`
+  },
+  49: {
+    character: ['Shelly Johnson'],
+    body: `"I’ve got one man too many in my life and I’m
+    married to him."`
+  },
+  50: {
+    character: ['Shelly Johnson'],
+    body: `"I’m a waitress in a diner. I’ve never been
+    compared to a goddess before."`
+  },
+  51: {
+    character: ['Shelly Johnson'],
+    /* eslint-disable-next-line */
+    body: `"He moved! This is too creepy. I don’t like this."`
+  },
+  52: {
+    character: ['Bobby Briggs'],
+    /* eslint-disable-next-line */
+    body: `"Don’t do anything I wouldn’t do."`
+  },
+  53: {
+    character: ['Bobby Briggs'],
+    body: `"If we tell the truth we don’t have to get our
+    stories straight."`
+  },
+  54: {
+    character: ['Bobby Briggs'],
+    /* eslint-disable-next-line */
+    body: `"Too bad we can only kill him once."`
+  },
+  55: {
+    character: ['Bobby Briggs'],
+    body: `"She wanted so much. She made me sell drugs so she
+    could have them."`
+  },
+  56: {
+    character: ['Bobby Briggs'],
+    body: `"You damn hypocrites. You make me sick! Everybody
+    knew she was in trouble but we didn’t do anything. All you
+    good people… You wanna know who killed Laura Palmer? You
+    did! We all did."`
+  },
+  57: {
+    character: ['Bobby Briggs'],
+    body: `"Doc Hayward said you needed familiar stimulants,
+    so we figured, what the hell, kazoos."`
+  },
+  58: {
+    character: [''],
+    body: `""`
+  },
+  59: {
+    character: [''],
+    body: `""`
+  },
+  60: {
+    character: [''],
+    body: `""`
+  },
+  61: {
+    character: [''],
+    body: `""`
+  },
+  62: {
+    character: [''],
+    body: `""`
+  },
+  63: {
+    character: [''],
+    body: `""`
+  },
 };
