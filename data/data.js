@@ -3,6 +3,10 @@ export const charactersData = {
     name: 'Annie Blackburn',
     img: 'https://vignette.wikia.nocookie.net/twinpeaks/images/1/14/Annie_Blackburn.jpg/revision/latest?cb=20190921214308'
   },
+  aBrennan: {
+    name: 'Deputy Andy Brennan',
+    img: 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fmedia.tmz.com%2F2017%2F04%2F26%2F0426-twin-peaks-andy-memba-primary-1200x630.jpg&f=1&nofb=1'
+  },
   bBriggs: {
     name: 'Bobby Briggs',
     img: 'https://vignette.wikia.nocookie.net/twinpeaks/images/3/31/Bobby_005.jpg/revision/latest/scale-to-width-down/340?cb=20100423043905'
@@ -341,4 +345,28 @@ export const quotesData = {
     body: `"Fellas don't drink that coffee! You'd never guess, there
     was a fish... in the percolator. Sorry."`
   },
+  43: {
+    character: ['Deputy Andy Brennan'],
+    /* eslint-disable-next-line */
+    body: `"Tell Harry… I didn’t cry. But Lucy, it’s so horrible."`
+  },
+  44: {
+    character: ['Deputy Andy Brennan'],
+    body: `"Albert Roserfeld. I don’t like the way you talk smart
+    about Sheriff Truman or anybody. You just shut your mouth!”"`
+  },
+  45: {
+    character: ['Deputy Andy Brennan'],
+    body: `"“When the Tacoma Sperm Bank was looking for donors,
+    naturally I applied. It’s my civic duty and I like whales.”"`
+  },
+  46: {
+    character: ['Deputy Andy Brennan'],
+    body: `"Tremaine, Brennan, Andy Brennan! We need to talk…
+    That is if you are not too busy.”"`
+  },
+  // 47: {
+  //   character: [''],
+  //   body: `""`
+  // },
 };
