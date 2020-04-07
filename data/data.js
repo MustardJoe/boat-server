@@ -427,24 +427,29 @@ export const quotesData = {
     so we figured, what the hell, kazoos."`
   },
   58: {
-    character: [''],
-    body: `""`
+    character: ['Pete Martell'],
+    /* eslint-disable-next-line */
+    body: `"The lonesome foghorn blows."`
   },
   59: {
-    character: [''],
-    body: `""`
+    character: ['Pete Martell'],
+    body: `"You don’t like musicals? Not even Fiddler on a
+    roof?"`
   },
   60: {
-    character: [''],
-    body: `""`
+    character: ['Deputy Hawk'],
+    /* eslint-disable-next-line */
+    body: `"Body and spirit are still far apart."`
   },
   61: {
-    character: [''],
-    body: `""`
+    character: ['Deputy Hawk'],
+    body: `"At ten o’clock there was a one-armed man snooping
+    around intensive care."`
   },
   62: {
-    character: [''],
-    body: `""`
+    character: ['Deputy Hawk'],
+    body: `"Laura’s in the ground, Agent Cooper. That’s all I
+    know for sure."`
   },
   63: {
     character: [''],
