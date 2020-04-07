@@ -357,7 +357,7 @@ export const quotesData = {
   44: {
     character: ['Deputy Andy Brennan'],
     body: `"Albert Roserfeld. I don’t like the way you talk smart
-    about Sheriff Truman or anybody. You just shut your mouth!”"`
+    about Sheriff Truman or anybody. You just shut your mouth!"`
   },
   45: {
     character: ['Deputy Andy Brennan'],
