@@ -35,9 +35,17 @@ export const charactersData = {
     name: 'Donna Hayward',
     image: 'https://i.pinimg.com/originals/dd/26/88/dd2688d50d8641f2db6b48b0f70e0fab.jpg'
   },
+  wHayward: {
+    name: 'Dr. Will Hayward',
+    image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpmctvline2.files.wordpress.com%2F2017%2F02%2Fwarren-frost-dead-dies-twin-peaks-seinfeld-matlock.jpg%3Fw%3D620%26h%3D420%26crop%3D1&f=1&nofb=1'
+  },
   aHorne: {
     name: 'Audry Horne',
     image: 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F1.bp.blogspot.com%2F-xmoZtnB9fxw%2FUUdmvYDH65I%2FAAAAAAAAATA%2FHJz1ERltktw%2Fs1600%2FAudrey%2BHorne.jpg&f=1&nofb=1'
+  },
+  jHurley: {
+    name: 'James Hurley',
+    image: 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.cheatsheet.com%2Fwp-content%2Fuploads%2F2016%2F09%2Fjames-hurley-twin-peaks-640x426.jpg&f=1&nofb=1'
   },
   nJennings: {
     name: 'Norma Jennings',
@@ -493,15 +501,38 @@ export const quotesData = {
     body: `"Have you ever heard of the White Lodge?"`
   },
   70: {
-    character: [''],
-    body: `""`
+    character: ['Donna Hayward'],
+    body: `"It’s like I’m having the most beautiful dream;
+    and the most terrible nightmare at once."`
   },
   71: {
-    character: [''],
-    body: `""`
+    character: ['Donna Hayward'],
+    body: `"As much as I love you, Laura, most of the time
+    we were trying to solve your problems. And you know
+    what? We still are. Not mine or James’ or Maddy’s.
+    Yours. You’re dead Laura, but your problems keep
+    hanging around!"`
   },
   72: {
-    character: [''],
+    character: ['Dr. Will Hayward'],
+    body: `"Donna, I’m sure you understand what you’ve put
+    your Mother and I through tonight."`
+  },
+  73: {
+    character: ['Dr. Will Hayward'],
+    body: `"I don’t believe I know your parents, James."`
+  },
+  74: {
+    character: ['Dr. Will Hayward'],
+    body: `"I have never in my life met a man with so
+    little regard for human frailty. Have you no compassion?!"`
+  },
+  75: {
+    character: ['Dr. Will Hayward'],
+    body: `""`
+  },
+  76: {
+    character: ['Dr. Will Hayward'],
     body: `""`
   },
 };
