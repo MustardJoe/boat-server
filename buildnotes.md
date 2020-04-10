@@ -1,7 +1,7 @@
 **Welcome to my Twin Peaks REST Api!**
 
 4/9/2020 - API is live at https://twin-peaks.herokuapp.com/
-need to "figure out" data... painfully manually enter all data or automate some how? also, move this file to build notes and write real readme.
+need to "figure out" data... painfully manually enter all data or automate some how? also, move this file to build notes and write real readme. also populated characters collection in live db.
 
 4/7/2020 - adding aggregations. project is coming long nicely.  need to start pulling list of websites used for project
 
