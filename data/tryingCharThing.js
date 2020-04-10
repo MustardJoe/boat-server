@@ -1,69 +1,64 @@
 const chars = [
-//   {
-//     name: 'Annie Blackburn',
-//     image: 'https://vignette.wikia.nocookie.net/twinpeaks/images/1/14/Annie_Blackburn.jpg/revision/latest?cb=20190921214308'
-//   },
-//   {
-//     name: 'Agent Denise Bryson',
-//     image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2F1.bp.blogspot.com%2F-r8_Xi4SW7WE%2FWMAXsu44jZI%2FAAAAAAAAkbU%2FLTFuympNK183ydPFx8KBqw_C1u_5xJ8UwCLcB%2Fs640%2FPicture%252B6.png&f=1&nofb=1',
-//   },
-// {
-//     name: 'Deputy Director Gordon Cole',
-//     image: 'https://vignette.wikia.nocookie.net/twinpeaks/images/7/7a/GordonColeNewMainPhoto.png/revision/latest?cb=20171109180605'
-//   },
-// {
-//     name: 'Agent Dale Cooper',
-//     image: 'https://cnet4.cbsistatic.com/img/VHWr511OOJsjcc8EjgQIv8uldRQ=/1092x0/2014/10/03/26bc6e31-8e32-46ed-aa6b-0a6784b9f722/thumbsup.jpg'
-//   },
-// {
-//     name: 'Deputy Hawk',
-//     image: 'https://m.media-amazon.com/images/M/MV5BMTkzNDk1ODc4NV5BMl5BanBnXkFtZTgwMTAyMjg0MDE@._V1_.jpg'
-//   },
-{
-    name: 'Donna Hayward',
-    image: 'https://i.pinimg.com/originals/dd/26/88/dd2688d50d8641f2db6b48b0f70e0fab.jpg'
+  {
+    character: ['5e900e37cfcfaa003648b5d9', '5e900f73cfcfaa003648b5e4'],
+    body: `Cooper: "I'll talk to her.  Maybe she'll confess. Turn herself in."
+    Rosenfield: "Maybe she'll grow wings and join the circus."`
   },
-{
-    name: 'Dr. Will Hayward',
-    image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpmctvline2.files.wordpress.com%2F2017%2F02%2Fwarren-frost-dead-dies-twin-peaks-seinfeld-matlock.jpg%3Fw%3D620%26h%3D420%26crop%3D1&f=1&nofb=1'
+  {
+    character: ['5e900f73cfcfaa003648b5df', '5e9009aacfcfaa003648b5d4'],
+    body: `Bobby: "Norma, I'll see you in my dreams."
+    Norma: "Not if I see you first."`
   },
-{
-    name: 'Audry Horne',
-    image: 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F1.bp.blogspot.com%2F-xmoZtnB9fxw%2FUUdmvYDH65I%2FAAAAAAAAATA%2FHJz1ERltktw%2Fs1600%2FAudrey%2BHorne.jpg&f=1&nofb=1'
+  {
+    character: ['5e900f73cfcfaa003648b5db'],
+    body: `"I believe you. I applaud your desire to do the right thing. But 
+    goodness in you is like a timebomb. And there's nothing good about 
+    ruined lives."`
   },
-{
-    name: 'James Hurley',
-    image: 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.cheatsheet.com%2Fwp-content%2Fuploads%2F2016%2F09%2Fjames-hurley-twin-peaks-640x426.jpg&f=1&nofb=1'
+  {
+    character: ['5e900f73cfcfaa003648b5e2', '5e900e37cfcfaa003648b5d9'],
+    body: `Pete: "Mr. Cooper, how do you take it?"
+    Cooper: "Black as midnight on a moonless night."`
   },
-{
-    name: 'Norma Jennings',
-    image: 'https://www.thewrap.com/wp-content/uploads/2017/05/norma-jennings-twin-peaks-300x200.jpg'
+  {
+    character:['5e900f73cfcfaa003648b5e1'],
+    body: `"And now, an ending. Where there was once one, there are
+    now two. Or were there always two? What is a reflection? A
+    chance to see two? When there are chances for reflections, there
+    can always be two — or more. Only when we are everywhere will
+    there be just one"`
   },
-{
-    name: 'Shelly Johnson',
-    image: 'https://i.pinimg.com/originals/0c/0b/f4/0c0bf45f695914a193ee452887b3f296.png'
+  {
+    character: ['5e900e37cfcfaa003648b5d9'],
+    body: `"If we're not at the right place at exactly the right time,
+    we won't find our way in."`
   },
-{
-    name: 'Log Lady',
-    image: 'https://vignette.wikia.nocookie.net/twinpeaks/images/4/4f/Shot0003.png/revision/latest?cb=20140210120651'
+  {
+    character: ['5e900e37cfcfaa003648b5d8'],
+    body: `"If I don't kiss you now, I'm gonna regret it the rest
+    of my days."`
   },
-{
-    name: 'Pete Martell',
-    image: 'https://vignette.wikia.nocookie.net/twinpeaks/images/c/c7/X_2574f1b8.jpg/revision/latest/scale-to-width-down/340?cb=20111126081930'
+  {
+    character: ['5e900f73cfcfaa003648b5e5'],
+    body: `"I'd never heard of a man who murdered by the rules."`
   },
- {
-    name: 'Mayor Milford',
-    image: 'https://4.bp.blogspot.com/-KUnc0IcWWNw/WNL5DiaWk3I/AAAAAAAAk6s/JU9Lkkd6jisjv_IzEnORPBkUosZrH3x9gCLcB/s1600/Picture%2B43.png'
+  {
+    character: ['5e900f73cfcfaa003648b5e1'],
+    body: `"The beautiful thing about treasure is that it exists. It
+    exists to be found. How beautiful it is to find treasure. Where
+    is the treasure, that when found, leaves one eternally happy? I
+    think we all know it exists. Some say it is inside us — inside
+    us one and all. That would be strange. It would be so near. Then
+    why is it so hard to find, and so difficult to attain?"`
   },
-{
-    name: 'Agent Albert Rosenfield',
-    image: 'https://3.bp.blogspot.com/-H1iA9zUc25k/WPYdMiFAqxI/AAAAAAAAmIQ/hQYc3B1fK1kmHEDYLfGtA2Upe5Ib9ScHQCEw/s1600/Picture%2B21.png'
-  },
- {
-    name: 'Sheriff Harry S. Truman',
-    image: 'https://heavyeditorial.files.wordpress.com/2017/05/sheriff-truman-where.jpg?quality=65&strip=all&w=780'
+  {
+    character: ['5e900f73cfcfaa003648b5e1'],
+    body: `"How do you feel about yourself? Are you proud of your
+    behavior? Are you ashamed of your behavior? You know in your
+    heart if you have hurt someone — you know. If you have hurt
+    someone, don't wait another day before making things right. The
+    world could break apart with sadness in the meantime."`
   }
-
 ];
 
 console.log(JSON.stringify(chars));
