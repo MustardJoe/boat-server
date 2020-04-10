@@ -1,10 +1,5 @@
-Welcome to my Twin Peaks REST Api!
+# Welcome to my Twin Peaks REST Api!
 
-4/9/2020 - API is live at https://twin-peaks.herokuapp.com/
-need to "figure out" data... painfully manually enter all data or automate some how? also, move this file to build notes and write real readme.
+**General Info:** I am a huge fan of the David Lynch TV show Twin Peaks. I also love working on server-side JavaScript projects. REST APIs are an increasingly popular way to provide data to (an otherwise interface with) client-side and other services in a way that is friendly, tech-stack agnositc, and easy to consume. At some point I noticed there was no REST API for Twin Peaks related content, so I made a mental note to eventually correct that oversight, and thus I now present my Twin Peaks REST API for public consumtion. Currently this API contains a collection of Characters from the show, and Quotes attributed to the show's characters. I hope you enjoy your time in Twin Peaks!
 
-4/7/2020 - adding aggregations. project is coming long nicely.  need to start pulling list of websites used for project
-
-3/21/2020 - have decided to build this project as a Twin Peaks Rest Api.
-
-initial commit for boat-server, a playground style project for working on during Joco
+**Additionally:** If you enjoy my Twin Peaks REST API, please consider checking out more of my projects here on GitHub, or on http://www.jonforney.com/. Also, I'm currently looking for work, so please feel free to visit my linked in page at https://www.linkedin.com/in/jon-forney/ or contact me directly with your professional opportunities.
