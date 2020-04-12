@@ -2,7 +2,7 @@
 
 const chars = [
   {
-    character: ["5e900f73cfcfaa003648b5df", "5e9009aacfcfaa003648b5d4"],
+    character: ['5e900f73cfcfaa003648b5df', '5e9009aacfcfaa003648b5d4'],
     body: "Bobby: 'Norma, I'll see you in my dreams.' Norma: 'Not if I see you first.'"
   },
   {

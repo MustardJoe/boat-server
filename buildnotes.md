@@ -1,5 +1,7 @@
 **Welcome to my Twin Peaks REST Api!**
 
+4/11/2020 working on data in quotes collection
+
 4/9/2020 - API is live at https://twin-peaks.herokuapp.com/
 need to "figure out" data... painfully manually enter all data or automate some how? also, move this file to build notes and write real readme. also populated characters collection in live db.
 
