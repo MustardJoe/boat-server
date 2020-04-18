@@ -1,86 +1,80 @@
 /*eslint quotes: ["error", "double", { "avoidEscape": true }]*/
 
 const chars = [
-  {
-    "character": ["5e900e37cfcfaa003648b5d9", "5e900f73cfcfaa003648b5e5"],
-    "body": "Harry: 'You know there are plenty of other vets in Twin Peaks.' Dale Cooper: 'Yes but only one has a best friend with one arm. Harry, in the heat of the investigative pursuit, the shortest distance between two points is not necessarily a straight line.'"
+  61: {
+    character: ['Deputy Hawk'],
+    body: `"At ten o’clock there was a one-armed man snooping
+    around intensive care."`
   },
-  {
-    "character": ["5e900f73cfcfaa003648b5e2"],
-    "body": "Fellas don't drink that coffee! You'd never guess, there was a fish... in the percolator. Sorry."
+  62: {
+    character: ['Deputy Hawk'],
+    body: `"Laura’s in the ground, Agent Cooper. That’s all I
+    know for sure."`
   },
-  {
-    "character": ["5e8fb51f959b3e0017376fa0"],
-    "body": "Tell Harry… I didn’t cry. But Lucy, it’s so horrible."
+  63: {
+    character: ['Major Garland Briggs'],
+    /* eslint-disable-next-line */
+    body: `"Achievement is it’s own reward. Pride obscures it."`
   },
-  {
-    "character": ["5e8fb51f959b3e0017376fa0"],
-    "body": "Albert Roserfeld. I don’t like the way you talk smart about Sheriff Truman or anybody. You just shut your mouth!"
+  64: {
+    character: ['Major Garland Briggs'],
+    body: `"This secrecy pains me from time to time. Any bureaucracy
+    that functions in secret inevitedly lends itself to corruption."`
   },
-  {
-    "character": ["5e8fb51f959b3e0017376fa0"],
-    "body": "When the Tacoma Sperm Bank was looking for donors, naturally I applied. It’s my civic duty and I like whales."
+  65: {
+    character: ['Major Garland Briggs'],
+    body: `"The readout took us by surprise. Row after row of
+    gibberish and all of a sudden… The owls are not what they seem."`
   },
-  {
-    "character": ["5e8fb51f959b3e0017376fa0"],
-    "body": "Tremaine, Brennan, Andy Brennan! We need to talk… That is if you are not too busy."
+  66: {
+    character: ['Major Garland Briggs'],
+    body: `"My vision ended and I awoke with a tremendous feeling of
+    optimism and confidence in you and your future. That was my
+    vision of you. I’m so glad to have had this opportunity to share
+    it with you."`
   },
-  {
-    "character": ["5e900f73cfcfaa003648b5dd"],
-    "body": "You know, sometimes I get so flushed, it’s interesting. Do your palms ever itch?"
+  67: {
+    character: ['Major Garland Briggs'],
+    body: `"There are powerful sources of evil. It is some men’s
+    fate to face great darkness."`
   },
-  {
-    "character": ["5e900f73cfcfaa003648b5dd"],
-    "body": "I’m Audrey Horne and I get what I want."
+  68: {
+    character: ['Major Garland Briggs'],
+    body: `"We each choose how to react. If the choice is fear,
+    then we become vulnerable to darkness."`
   },
-  {
-    "character": ["5e900f73cfcfaa003648b5e0"],
-    "body": "I’ve got one man too many in my life and I’m married to him."
+  69: {
+    character: ['Major Garland Briggs'],
+    /* eslint-disable-next-line */
+    body: `"Have you ever heard of the White Lodge?"`
   },
-  {
-    "character": ["5e900f73cfcfaa003648b5e0"],
-    "body": "I’m a waitress in a diner. I’ve never been compared to a goddess before."
+  70: {
+    character: ['Donna Hayward'],
+    body: `"It’s like I’m having the most beautiful dream;
+    and the most terrible nightmare at once."`
   },
-  {
-    "character": ["5e900f73cfcfaa003648b5e0"],
-    "body": "He moved! This is too creepy. I don’t like this."
+  71: {
+    character: ['Donna Hayward'],
+    body: `"As much as I love you, Laura, most of the time
+    we were trying to solve your problems. And you know
+    what? We still are. Not mine or James’ or Maddy’s.
+    Yours. You’re dead Laura, but your problems keep
+    hanging around!"`
   },
-  {
-    "character": ["5e9009aacfcfaa003648b5d4"],
-    "body": "Don’t do anything I wouldn’t do."
+  72: {
+    character: ['Dr. Will Hayward'],
+    body: `"Donna, I’m sure you understand what you’ve put
+    your Mother and I through tonight."`
   },
-  {
-    "character": ["5e9009aacfcfaa003648b5d4"],
-    "body": "If we tell the truth we don’t have to get our stories straight."
+  73: {
+    character: ['Dr. Will Hayward'],
+    body: `"I don’t believe I know your parents, James."`
   },
-  {
-    "character": ["5e9009aacfcfaa003648b5d4"],
-    "body": "Too bad we can only kill him once."
+  74: {
+    character: ['Dr. Will Hayward'],
+    body: `"I have never in my life met a man with so
+    little regard for human frailty. Have you no compassion?!"`
   },
-  {
-    "character": ["5e9009aacfcfaa003648b5d4"],
-    "body": "She wanted so much. She made me sell drugs so she could have them."
-  },
-  {
-    "character": ["5e9009aacfcfaa003648b5d4"],
-    "body": "You damn hypocrites. You make me sick! Everybody knew she was in trouble but we didn’t do anything. All you good people… You wanna know who killed Laura Palmer? You did! We all did."
-  },
-  {
-    "character": ["5e9009aacfcfaa003648b5d4"],
-    "body": "Doc Hayward said you needed familiar stimulants, so we figured, what the hell, kazoos."
-  },
-  {
-    "character": ["5e900f73cfcfaa003648b5e2"],
-    "body": "The lonesome foghorn blows."
-  },
-  {
-    "character": ["5e900f73cfcfaa003648b5e2"],
-    "body": "You don’t like musicals? Not even Fiddler on a roof?"
-  },
-  {
-    "character": ["5e900e37cfcfaa003648b5da"],
-    "body": "Body and spirit are still far apart."
-  }
 ];
 
 console.log(JSON.stringify(chars));
