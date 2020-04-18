@@ -27,6 +27,10 @@ export const charactersData = {
     name: 'Agent Dale Cooper',
     image: 'https://cnet4.cbsistatic.com/img/VHWr511OOJsjcc8EjgQIv8uldRQ=/1092x0/2014/10/03/26bc6e31-8e32-46ed-aa6b-0a6784b9f722/thumbsup.jpg'
   },
+  pGerard: {
+    name: 'Philip Gerard',
+    image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fvignette1.wikia.nocookie.net%2Ftwinpeaks%2Fimages%2Fc%2Fcc%2FItSaidMom.jpg%2Frevision%2Flatest%3Fcb%3D20161217045330&f=1&nofb=1'
+  },
   dHawk: {
     name: 'Deputy Hawk',
     image: 'https://m.media-amazon.com/images/M/MV5BMTkzNDk1ODc4NV5BMl5BanBnXkFtZTgwMTAyMjg0MDE@._V1_.jpg'
@@ -43,13 +47,33 @@ export const charactersData = {
     name: 'Audry Horne',
     image: 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F1.bp.blogspot.com%2F-xmoZtnB9fxw%2FUUdmvYDH65I%2FAAAAAAAAATA%2FHJz1ERltktw%2Fs1600%2FAudrey%2BHorne.jpg&f=1&nofb=1'
   },
+  bHorne: {
+    name: 'Ben Horne',
+    image: 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F2.bp.blogspot.com%2F-MAdUviMIDSc%2FTl538agJOTI%2FAAAAAAAAAQ8%2Fhbggs7ruQkk%2Fs1600%2FBenjamin_Horne.png&f=1&nofb=1'
+  },
+  eHurley: {
+    name: 'Ed Hurley',
+    image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftwinpeaksfreaks.files.wordpress.com%2F2014%2F06%2Fed2.jpg&f=1&nofb=1'
+  },
   jHurley: {
     name: 'James Hurley',
     image: 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.cheatsheet.com%2Fwp-content%2Fuploads%2F2016%2F09%2Fjames-hurley-twin-peaks-640x426.jpg&f=1&nofb=1'
   },
+  nHurley: {
+    name: 'Nadine Hurley',
+    image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fdisabledtvcharactersblog.files.wordpress.com%2F2016%2F09%2Ftwin-peaks-nadine-cheerleader.jpg&f=1&nofb=1'
+  },
+  dlJacoby: {
+    name: 'Dr. Lawrence Jacoby',
+    image: 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F4.bp.blogspot.com%2F-6K-AZo22hxA%2FVGAD4Ak1r3I%2FAAAAAAAALKs%2Fijg07WblChQ%2Fs1600%2Fjacoby.png&f=1&nofb=1'
+  },
   nJennings: {
     name: 'Norma Jennings',
     image: 'https://www.thewrap.com/wp-content/uploads/2017/05/norma-jennings-twin-peaks-300x200.jpg'
+  },
+  lJohnson: {
+    name: 'Leo Johnson',
+    image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Felcadillacnegro.files.wordpress.com%2F2012%2F05%2Fleo-johnson1.jpg&f=1&nofb=1'
   },
   sJohnson: {
     name: 'Shelly Johnson',
@@ -67,9 +91,21 @@ export const charactersData = {
     name: 'Mayor Milford',
     image: 'https://4.bp.blogspot.com/-KUnc0IcWWNw/WNL5DiaWk3I/AAAAAAAAk6s/JU9Lkkd6jisjv_IzEnORPBkUosZrH3x9gCLcB/s1600/Picture%2B43.png'
   },
+  jPackard: {
+    name: 'Josie Packard',
+    image: 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fhighlighthollywood.com%2Fwp-content%2Fuploads%2F2014%2F12%2Ftwinpeaks-josie.png&f=1&nofb=1'
+  },
+  lePalmer: {
+    name: 'Leland Palmer',
+    image: 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwomenwriteaboutcomics.com%2Fwp-content%2Fuploads%2F2014%2F12%2Fleland-palmer.jpg&f=1&nofb=1'
+  },
   aRosenfield: {
     name: 'Agent Albert Rosenfield',
     image: 'https://3.bp.blogspot.com/-H1iA9zUc25k/WPYdMiFAqxI/AAAAAAAAmIQ/hQYc3B1fK1kmHEDYLfGtA2Upe5Ib9ScHQCEw/s1600/Picture%2B21.png'
+  },
+  rTremayne: {
+    name: 'Richard Tremayne',
+    image: 'https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic01.nyt.com%2Fimages%2F2017%2F05%2F04%2Fwatching%2F04twinpeaks-slide-ELY6%2F04twinpeaks-slide-ELY6-master768-v2.jpg&f=1&nofb=1'
   },
   hTruman: {
     name: 'Sheriff Harry S. Truman',
@@ -520,6 +556,7 @@ export const quotesData = {
   },
   73: {
     character: ['Dr. Will Hayward'],
+    /* eslint-disable-next-line */
     body: `"I don’t believe I know your parents, James."`
   },
   74: {
@@ -528,11 +565,115 @@ export const quotesData = {
     little regard for human frailty. Have you no compassion?!"`
   },
   75: {
-    character: ['Dr. Will Hayward'],
-    body: `""`
+    character: ['Lucy Moran'],
+    body: "Sheriff, I’m going to transfer it to the phone on the table by thered chair. The red chair against the wall. The little table with lamp on it. The lamp we moved from the corner? The black phone, not the brown phone."
   },
   76: {
-    character: ['Dr. Will Hayward'],
+    character: ['Lucy Moran'],
+    body: `"Would you care to leave a message?"`
+  },
+  77: {
+    character: ['Lucy Moran'],
+    body: `"Officer Andy, this is peak activity time at the station switch
+    board. So it’s really not convenient for me to talk right now."`
+  },
+  78: {
+    character: ['Lucy Moran'],
+    body: `"Birdy, birdy birdy… Want some orange? Come’on, let’s share."`
+  },
+  79: {
+    character: ['Lucy Moran'],
+    body: `"Sheriff, Leo Johnson called. He left this message. And sheriff,
+    in the background when I spoke to them, I could hear a clock striking… It sounded like the clock at Easter Park."`
+  },
+  80: {
+    character: ['Lucy Moran'],
+    body: `"He had lots of coats and keeps himself and his car in great shape. Most his
+    behavior was asinine but at least he was different."`
+  },
+  81: {
+    character: ['Lucy Moran'],
+    body: `"Richard, here’s what you’re going to do. Take your money, put it back in your
+    wallet, or your pocket, turn around, walk through both sets of doors, the second one sticks sometimes, go out into the parking lot, get in your car, turn the key, and never, ever speak to me again as long as you live! Say one more word and I’ll scream. Leave, please."`
+  },
+  82: {
+    character: ['Deputy Hawk'],
+    body: `"Some of my best friends are white people."`
+  },
+  83: {
+    character: ['Leland Palmer'],
+    body: `"Leland, Leland, you’ve been a good vehicle and I’ve enjoyed the ride. But now he’s weak and full of holes. It’s almost time to shuffle off to Buffalo!"`
+  },
+  84: {
+    character: ['Leo Johnson'],
+    body: `"Shelly, sit down here a minute and help me out."`
+  },
+  84: {
+    character: ['Leland Palmer'],
+    body: `"We have to dance for Laura!"`
+  },
+  84: {
+    character: ['Ben Horne'],
+    body: `"Admiration is for poets and dairy cows, Bobby."`
+  },
+  84: {
+    character: ['Josie Packard'],
+    body: `"On top of the morning to you, Pete."`
+  },
+  85: {
+    character: ['Dr. Jacoby'],
+    body: `"Laura had secrets and around those secrets she built the fortress that,
+    well, that in my six months with her, I was not able to penetrate, and for which I consider myself an abject failure. "`
+  },
+  86: {
+    character: ['Richard Tremayne'],
+    body: `"Honestly, I barely have the time to feed my cat."`
+  },
+  87: {
+    character: ['Mayor Milford'],
+    body: `"Anybody moves and I’ll blast her into kingdom come! And the hippie too!"`
+  },
+  88: {
+    character: ['Log Lady'],
+    body: `"When this kind of fire starts, it is very hard to put out.
+    The tender boughs of innocence burn first, and the wind rises, and then all goodness is in jeopardy."`
+  },
+  89: {
+    character: ['Audrey Horne'],
+    body: `"I love this music. Isn’t it too dreamy?"`
+  },
+  90: {
+    character: ['Nadine Hurley'],
+    body: `"At high school, I used to watch Norma and you at those football games?
+    She was so pretty. You were such a handsome couple, but I knew, I always knew once you got to know me that we’d be together. Even though I was just a little nobody, a little brown mouse, I was always hoping. And wasn’t I right? Wasn’t I right?"`
+  },
+  91: {
+    character: ['Ed Hurley'],
+    body: `"I’m living my life, Norma. I just don’t like it much."`
+  },
+  92: {
+    character: ['Agent Rosenfield'],
+    body: `"The letter B, from Ronette’s finger, was cut from a copy of “Flesh World”.
+    Perfect match. This particular edition features swingers’ clubs for standard poodle enthusiasts. No comment."`
+  },
+  93: {
+    character: ['Deputy Director Gordon Cole'],
+    body: `"COOPER, YOU REMIND ME TODAY OF A SMALL MEXICAN CHIHUAHUA."`
+  },
+  94: {
+    character: ['Sheriff Truman'],
+    body: `"You know, you are the best lawman I’ve ever seen. But, Coop, sometimes you think too much."`
+  },
+  95: {
+    character: ['Lucy Moran'],
+    body: `""`
+  },
+  96: {
+    character: ['Lucy Moran'],
+    body: `""`
+  },
+  97: {
+    character: ['Lucy Moran'],
     body: `""`
   },
 };
