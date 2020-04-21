@@ -91,6 +91,10 @@ export const charactersData = {
     name: 'Mayor Milford',
     image: 'https://4.bp.blogspot.com/-KUnc0IcWWNw/WNL5DiaWk3I/AAAAAAAAk6s/JU9Lkkd6jisjv_IzEnORPBkUosZrH3x9gCLcB/s1600/Picture%2B43.png'
   },
+  lMoran: {
+    name: 'Lucy Moran',
+    image: 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.cheatsheet.com%2Fwp-content%2Fuploads%2F2016%2F09%2Flucy-moran-twin-peaks-e1474404422161-640x479.png%3Fx79442&f=1&nofb=1'
+  },
   jPackard: {
     name: 'Josie Packard',
     image: 'https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fhighlighthollywood.com%2Fwp-content%2Fuploads%2F2014%2F12%2Ftwinpeaks-josie.png&f=1&nofb=1'
