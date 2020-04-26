@@ -1,98 +1,94 @@
 /*eslint quotes: ["error", "double", { "avoidEscape": true }]*/
 
 const chars = [
-  {
-    "character": ["5e9e3c6bb095770017bd72f9"],
-    "body": "Sheriff, I’m going to transfer it to the phone on the table by the red chair. The red chair against the wall. The little table with lamp on it. The lamp we moved from the corner? The black phone, not the brown phone."
+  95: {
+    character: ['Leo Johnson'],
+    body: `"You punks owe me ten grand. Leo needs a new pair of shoes!"`
   },
-  {
-    "character": ["5e9e3c6bb095770017bd72f9"],
-    "body": "Would you care to leave a message?"
+  96: {
+    character: ['Ben Horne'],
+    body: `"Laura died yesterday. I lost you years ago."`
   },
-  {
-    "character": ["5e9e3c6bb095770017bd72f9"],
-    "body": "Officer Andy, this is peak activity time at the station switch board. So it’s really not convenient for me to talk right now."
+  97: {
+    character: ['Ben Horne'],
+    body: `"If you ever pull another stunt like that, you are going to be scrubbing bidets in a Bulgarian convent."`
   },
-  {
-    "character": ["5e9e3c6bb095770017bd72f9"],
-    "body": "Birdy, birdy birdy… Want some orange? Come’on, let’s share."
+  98: {
+    character: ['Ben Horne'],
+    body: `"I’m going to go give ‘little Elvis’ a bath."`
   },
-  {
-    "character": ["5e9e3c6bb095770017bd72f9"],
-    "body": "Sheriff, Leo Johnson called. He left this message. And sheriff, in the background when I spoke to them, I could hear a clock striking… It sounded like the clock at Easter Park."
+  99: {
+    character: ['Ben Horne'],
+    body: `"Agent Cooper. Let me give you the best advice that you’re gonna get all week. Men fall under the spell of Audrey’s charms like ducks in a shooting gallery."`
   },
-  {
-    "character": ["5e9e3c6bb095770017bd72f9"],
-    "body": "He had lots of coats and keeps himself and his car in great shape. Most his behavior was asinine but at least he was different."
+  100: {
+    character: ['Ben Horne'],
+    body: `"Would you like us to hum? A Tibetan chant, perhaps?"`
   },
-  {
-    "character": ["5e9e3c6bb095770017bd72f9"],
-    "body": "Richard, here’s what you’re going to do. Take your money, put it back in your wallet, or your pocket, turn around, walk through both sets of doors, the second one sticks sometimes, go out into the parking lot, get in your car, turn the key, and never, ever speak to me again as long as you live! Say one more word and I’ll scream. Leave, please."
+  101: {
+    character: ['Ben Horne'],
+    body: `"Sometimes the urge to do bad is nearly overpowering."`
   },
-  {
-    "character": ["5e900e37cfcfaa003648b5da"],
-    "body": "Some of my best friends are white people."
+  102: {
+    character: ['Josie Packard'],
+    body: `"Pete, I want to thank you for yesterday, for standing up to me with Catherine."`
   },
-  {
-    "character": ["5e9a6c9a2670900017421c49"],
-    "body": "Leland, Leland, you’ve been a good vehicle and I’ve enjoyed the ride. But now he’s weak and full of holes. It’s almost time to shuffle off to Buffalo!"
+  103: {
+    character: ['Josie Packard'],
+    body: `"They want to hurt me. I know they do. Something horrible is going to happen, Harry."`
   },
-  {
-    "character": ["5e9a6f9d2670900017421c4a"],
-    "body": "Shelly, sit down here a minute and help me out."
+  104: {
+    character: ['Dr. Jacoby'],
+    body: `"The problems of our entire society are of a sexual nature."`
   },
-  {
-    "character": ["5e9a6c9a2670900017421c49"],
-    "body": "We have to dance for Laura!"
+  105: {
+    character: ['Dr. Jacoby'],
+    body: `"I’m a terrible person agent Cooper."`
   },
-  {
-    "character": ["5e9a77c82670900017421c4d"],
-    "body": "Admiration is for poets and dairy cows, Bobby."
+  106: {
+    character: ['Dr. Jacoby'],
+    body: `"Let’s not talk about you or your parents anymore. Let’s talk about Laura."`
   },
-  {
-    "character": ["5e9b709bb042e100178ad4f9"],
-    "body": "On top of the morning to you, Pete."
+  107: {
+    character: ['Dr. Jacoby'],
+    body: `"It was her, you see, the necklace: A divided heart. Laura was… – was in fact, well she was leading a double life. Two people."`
   },
-  {
-    "character": ["5e9b7669b042e100178ad4fa"],
-    "body": "Laura had secrets and around those secrets she built the fortress that, well, that in my six months with her, I was not able to penetrate, and for which I consider myself an abject failure. "
+  108: {
+    character: ['Dr. Jacoby'],
+    body: `"It’s like a… like a dream. There was a smell. Yeah there was a peculiar smell… This was a smell like… like Oil. Scorched engine oil."`
   },
-  {
-    "character": ["5e9b7b17b042e100178ad4fb"],
-    "body": "Honestly, I barely have the time to feed my cat."
+  109: {
+    character: ['Nadine Hurley'],
+    body: `"Ed, are you waiting for those drapes to hang themselves?"`
   },
-  {
-    "character": ["5e900f73cfcfaa003648b5e3"],
-    "body": "Anybody moves and I’ll blast her into kingdom come! And the hippie too!"
+  110: {
+    character: ['Nadine Hurley'],
+    body: `"I’ve gotten all new drapes for my house. Ed bought’em for me yesterday at Gentleman Jim’s and we installed them together."`
   },
-  {
-    "character": ["5e900f73cfcfaa003648b5e1"],
-    "body": "When this kind of fire starts, it is very hard to put out. The tender boughs of innocence burn first, and the wind rises, and then all goodness is in jeopardy."
+  111: {
+    character: ['Nadine Hurley'],
+    body: `"Cotton balls. By God, those things will be quiet now."`
   },
-  {
-    "character": ["5e900f73cfcfaa003648b5dd"],
-    "body": "I love this music. Isn’t it too dreamy?"
+  112: {
+    character: ['Nadine Hurley'],
+    body: `"Doc Hayward says tonsillitis or no tonsillitis I can go to cheerleader try outs."`
   },
-  {
-    "character": ["5e9b7ed8b042e100178ad4fc"],
-    "body": "At high school, I used to watch Norma and you at those football games? She was so pretty. You were such a handsome couple, but I knew, I always knew once you got to know me that we’d be together. Even though I was just a little nobody, a little brown mouse, I was always hoping. And wasn’t I right? Wasn’t I right?"
+  113: {
+    character: ['Nadine Hurley'],
+    body: `"I’m going to have the world’s first one hundred percent quiet runner."`
   },
-  {
-    "character": ["5e9b8020b042e100178ad4fd"],
-    "body": "I’m living my life, Norma. I just don’t like it much."
+  114: {
+    character: ['Nadine Hurley'],
+    body: `"It is neat having the place all to ourselves. Pretend it’s ours, like we’re married or something!"`
   },
-  {
-    "character": ["5e900f73cfcfaa003648b5e4"],
-    "body": "The letter B, from Ronette’s finger, was cut from a copy of 'Flesh World'. Perfect match. This particular edition features swingers’ clubs for standard poodle enthusiasts. No comment."
+  115: {
+    character: ['Ed Hurley'],
+    body: `"I sure know how to pick ‘m too."`
   },
-  {
-    "character": ["5e900e37cfcfaa003648b5d8"],
-    "body": "COOPER, YOU REMIND ME TODAY OF A SMALL MEXICAN CHIHUAHUA."
-  },
-  {
-    "character": ["5e900f73cfcfaa003648b5e5"],
-    "body": "You know, you are the best lawman I’ve ever seen. But, Coop, sometimes you think too much."
-  },
+  116: {
+    character: ['Ed Hurley'],
+    body: `"It’s not the first time, it won’t be the last, but I’m in that doghouse again."`
+  }
 ];
 
 console.log(JSON.stringify(chars));
