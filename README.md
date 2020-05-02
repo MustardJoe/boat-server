@@ -19,5 +19,4 @@ The Twin Peaks REST API contains two categories of data: Character Information a
 
 https://twin-peaks.herokuapp.com/api/v1/quotes
 
-
-**Additionally:** If you enjoy my Twin Peaks REST API, please consider checking out more of my projects here on GitHub, or on http://www.jonforney.com/. Also, please feel free to visit my linked in page at https://www.linkedin.com/in/jon-forney/ or contact me directly with your professional opportunities.
+**Further Info:**  If you enjoy Twin Peaks, the REST API, please consider checking out more of <a href="https://github.com/MustardJoe">my projects on GitHub</a>, or at my homepage, <a href="https://wwww.jonforney.com">https://www.jonforney.com/</a>.  My linkdIn page is available at <a href="https://www.linkedin.com/in/jon-forney/">https://www.linkedin.com/in/jon-forney/</a>.  Please feel free to contact me with your professional opportunities.
