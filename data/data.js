@@ -570,11 +570,11 @@ export const quotesData = {
   },
   75: {
     character: ['Lucy Moran'],
-    body: "Sheriff, I’m going to transfer it to the phone on the table by thered chair. The red chair against the wall. The little table with lamp on it. The lamp we moved from the corner? The black phone, not the brown phone."
+    body: 'Sheriff, I’m going to transfer it to the phone on the table by thered chair. The red chair against the wall. The little table with lamp on it. The lamp we moved from the corner? The black phone, not the brown phone.'
   },
   76: {
     character: ['Lucy Moran'],
-    body: `"Would you care to leave a message?"`
+    body: 'Would you care to leave a message?'
   },
   77: {
     character: ['Lucy Moran'],
@@ -583,7 +583,7 @@ export const quotesData = {
   },
   78: {
     character: ['Lucy Moran'],
-    body: `"Birdy, birdy birdy… Want some orange? Come’on, let’s share."`
+    body: 'Birdy, birdy birdy… Want some orange? Come’on, let’s share.'
   },
   79: {
     character: ['Lucy Moran'],
@@ -602,27 +602,28 @@ export const quotesData = {
   },
   82: {
     character: ['Deputy Hawk'],
-    body: `"Some of my best friends are white people."`
+    body: 'Some of my best friends are white people.'
   },
   83: {
     character: ['Leland Palmer'],
-    body: `"Leland, Leland, you’ve been a good vehicle and I’ve enjoyed the ride. But now he’s weak and full of holes. It’s almost time to shuffle off to Buffalo!"`
+    body: `"Leland, Leland, you’ve been a good vehicle and I’ve enjoyed the ride. But
+    now he’s weak and full of holes. It’s almost time to shuffle off to Buffalo!"`
   },
   84: {
     character: ['Leo Johnson'],
-    body: `"Shelly, sit down here a minute and help me out."`
+    body: 'Shelly, sit down here a minute and help me out.'
   },
   85: {
     character: ['Leland Palmer'],
-    body: `"We have to dance for Laura!"`
+    body: 'We have to dance for Laura!'
   },
   86: {
     character: ['Ben Horne'],
-    body: `"Admiration is for poets and dairy cows, Bobby."`
+    body: 'Admiration is for poets and dairy cows, Bobby.'
   },
   87: {
     character: ['Josie Packard'],
-    body: `"On top of the morning to you, Pete."`
+    body: 'On top of the morning to you, Pete.'
   },
   88: {
     character: ['Dr. Jacoby'],
@@ -631,11 +632,11 @@ export const quotesData = {
   },
   89: {
     character: ['Richard Tremayne'],
-    body: `"Honestly, I barely have the time to feed my cat."`
+    body: 'Honestly, I barely have the time to feed my cat.'
   },
   90: {
     character: ['Mayor Milford'],
-    body: `"Anybody moves and I’ll blast her into kingdom come! And the hippie too!"`
+    body: 'Anybody moves and I’ll blast her into kingdom come! And the hippie too!'
   },
   91: {
     character: ['Log Lady'],
@@ -644,7 +645,7 @@ export const quotesData = {
   },
   92: {
     character: ['Audrey Horne'],
-    body: `"I love this music. Isn’t it too dreamy?"`
+    body: 'I love this music. Isn’t it too dreamy?'
   },
   93: {
     character: ['Nadine Hurley'],
@@ -653,7 +654,7 @@ export const quotesData = {
   },
   94: {
     character: ['Ed Hurley'],
-    body: `"I’m living my life, Norma. I just don’t like it much."`
+    body: 'I’m living my life, Norma. I just don’t like it much.'
   },
   95: {
     character: ['Agent Rosenfield'],
@@ -662,91 +663,103 @@ export const quotesData = {
   },
   96: {
     character: ['Deputy Director Gordon Cole'],
-    body: `"COOPER, YOU REMIND ME TODAY OF A SMALL MEXICAN CHIHUAHUA."`
+    body: 'COOPER, YOU REMIND ME TODAY OF A SMALL MEXICAN CHIHUAHUA.'
   },
   97: {
     character: ['Sheriff Truman'],
-    body: `"You know, you are the best lawman I’ve ever seen. But, Coop, sometimes you think too much."`
+    body: `"You know, you are the best lawman I’ve ever seen. But, Coop,
+    sometimes you think too much."`
   },
   98: {
     character: ['Leo Johnson'],
-    body: `"You punks owe me ten grand. Leo needs a new pair of shoes!"`
+    body: 'You punks owe me ten grand. Leo needs a new pair of shoes!'
   },
   99: {
     character: ['Ben Horne'],
-    body: `"Laura died yesterday. I lost you years ago."`
+    body: 'Laura died yesterday. I lost you years ago.'
   },
   100: {
     character: ['Ben Horne'],
-    body: `"If you ever pull another stunt like that, you are going to be scrubbing bidets in a Bulgarian convent."`
+    body: `"If you ever pull another stunt like that, you are going to be
+    scrubbing bidets in a Bulgarian convent."`
   },
   101: {
     character: ['Ben Horne'],
-    body: `"I’m going to go give ‘little Elvis’ a bath."`
+    body: 'I’m going to go give ‘little Elvis’ a bath.'
   },
   102: {
     character: ['Ben Horne'],
-    body: `"Agent Cooper. Let me give you the best advice that you’re gonna get all week. Men fall under the spell of Audrey’s charms like ducks in a shooting gallery."`
+    body: `"Agent Cooper. Let me give you the best advice that you’re
+    gonna get all week. Men fall under the spell of Audrey’s charms like ducks in a shooting gallery."`
   },
   103: {
     character: ['Ben Horne'],
-    body: `"Would you like us to hum? A Tibetan chant, perhaps?"`
+    body: 'Would you like us to hum? A Tibetan chant, perhaps?'
   },
   104: {
     character: ['Ben Horne'],
-    body: `"Sometimes the urge to do bad is nearly overpowering."`
+    body: 'Sometimes the urge to do bad is nearly overpowering.'
   },
   105: {
     character: ['Josie Packard'],
-    body: `"Pete, I want to thank you for yesterday, for standing up to me with Catherine."`
+    body: `"Pete, I want to thank you for yesterday, for standing up to me
+    with Catherine."`
   },
   106: {
     character: ['Josie Packard'],
-    body: `"They want to hurt me. I know they do. Something horrible is going to happen, Harry."`
+    body: `"They want to hurt me. I know they do. Something horrible is
+    going to happen, Harry."`
   },
   107: {
     character: ['Dr. Jacoby'],
-    body: `"The problems of our entire society are of a sexual nature."`
+    body: 'The problems of our entire society are of a sexual nature.'
   },
   108: {
     character: ['Dr. Jacoby'],
-    body: `"I’m a terrible person agent Cooper."`
+    body: 'I’m a terrible person agent Cooper.'
   },
   109: {
     character: ['Dr. Jacoby'],
-    body: `"Let’s not talk about you or your parents anymore. Let’s talk about Laura."`
+    body: `"Let’s not talk about you or your parents anymore. Let’s talk
+    about Laura."`
   },
   110: {
     character: ['Dr. Jacoby'],
-    body: `"It was her, you see, the necklace: A divided heart. Laura was… – was in fact, well she was leading a double life. Two people."`
+    body: `"It was her, you see, the necklace: A divided heart. Laura
+    was… – was in fact, well she was leading a double life. Two people."`
   },
   111: {
     character: ['Dr. Jacoby'],
-    body: `"It’s like a… like a dream. There was a smell. Yeah there was a peculiar smell… This was a smell like… like Oil. Scorched engine oil."`
+    body: `"It’s like a… like a dream. There was a smell. Yeah there
+    was a peculiar smell… This was a smell like… like Oil. Scorched engine oil."`
   },
   112: {
     character: ['Nadine Hurley'],
-    body: `"Ed, are you waiting for those drapes to hang themselves?"`
+    body: 'Ed, are you waiting for those drapes to hang themselves?'
   },
   113: {
     character: ['Nadine Hurley'],
-    body: `"I’ve gotten all new drapes for my house. Ed bought’em for me yesterday at Gentleman Jim’s and we installed them together."`
+    body: `"I’ve gotten all new drapes for my house. Ed bought’em for
+    me yesterday at Gentleman Jim’s and we installed them together."`
   },
   114: {
     character: ['Nadine Hurley'],
-    body: `"Cotton balls. By God, those things will be quiet now."`
+    body: 'Cotton balls. By God, those things will be quiet now.'
   },
   115: {
     character: ['Nadine Hurley'],
-    body: `"Doc Hayward says tonsillitis or no tonsillitis I can go to cheerleader try outs."`
+    body: `"Doc Hayward says tonsillitis or no tonsillitis I can go to
+    cheerleader try outs."`
   },
   116: {
     character: ['Nadine Hurley'],
-    body: `"I’m going to have the world’s first one hundred percent quiet runner."`
+    body: `"I’m going to have the world’s first one hundred percent quiet
+    runner."`
   },
   117: {
     character: ['Nadine Hurley'],
-    body: `"It is neat having the place all to ourselves. Pretend it’s ours, like we’re married or something!"`
+    body: `"It is neat having the place all to ourselves. Pretend it’s
+    ours, like we’re married or something!"`
   },
   118: {
     character: ['Ed Hurley'],
@@ -754,7 +767,8 @@ export const quotesData = {
   },
   119: {
     character: ['Ed Hurley'],
-    body: `"It’s not the first time, it won’t be the last, but I’m in that doghouse again."`
+    body: `"It’s not the first time, it won’t be the last, but
+    I’m in that doghouse again."`
   },
   120: {
     character: [''],
